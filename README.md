@@ -199,3 +199,15 @@ dashboard development
 demand pattern studies
 
 spatial and temporal analysis
+
+📄 License and Data Source
+
+The raw data is provided by the New York City public open data program through the NYC Taxi and Limousine Commission (TLC).
+
+This project focuses solely on data cleaning, preparation, and analytical use of the publicly available datasets.
+
+📊 Overview Dashboard:
+<img width="1332" height="713" alt="image" src="https://github.com/user-attachments/assets/b3322074-9ebc-4435-84e7-e46bf00b668e" />
+
+
+If you want to see my work you can use this link:https://drive.google.com/drive/folders/1SHdOdg9_Y5N768sDD0rAdKw79IaP0aBr?usp=sharing
