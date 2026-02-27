@@ -106,7 +106,7 @@ removed, or
 
 replaced with 0
 
-3. Validate missing values
+## 3. Validate missing values
 
 Key numeric columns (trip_distance, fare_amount, tip_amount, total_amount) are checked for:
 
@@ -114,7 +114,7 @@ missing values
 
 unrealistic values
 
-4. Large file processing with chunks
+## 4. Large file processing with chunks
 
 Monthly CSV files are processed and merged using chunk-based reading to avoid memory issues:
 
@@ -126,7 +126,7 @@ all remaining chunks are appended
 
 This allows the project to scale to tens of millions of records.
 
-🔗 Merging Monthly Files
+# 🔗 Merging Monthly Files
 
 All cleaned monthly files are merged into a single file:
 
@@ -142,7 +142,7 @@ ensures the header is written only once
 
 This is designed specifically for large datasets.
 
-📈 Power BI / DAX Measures
+# 📈 Power BI / DAX Measures
 
 The dataset is prepared so that:
 
@@ -175,7 +175,7 @@ cash tips are not captured electronically and appear as zero
 
 only tip_amount > 0 represents recorded electronic tips
 
-🧰 Technologies Used
+# 🧰 Technologies Used
 
 Python
 
@@ -185,7 +185,7 @@ Google Colab / Jupyter Notebook
 
 Power BI (for visualization and DAX analysis)
 
-✅ Final Output
+# ✅ Final Output
 
 The final cleaned and merged dataset:
 
@@ -201,14 +201,15 @@ demand pattern studies
 
 spatial and temporal analysis
 
-📄 License and Data Source
+# 📄 License and Data Source
 
 The raw data is provided by the New York City public open data program through the NYC Taxi and Limousine Commission (TLC).
 
 This project focuses solely on data cleaning, preparation, and analytical use of the publicly available datasets.
 
-📊 Overview Dashboard:
+# 📊 Overview Dashboard:
 <img width="1332" height="713" alt="image" src="https://github.com/user-attachments/assets/b3322074-9ebc-4435-84e7-e46bf00b668e" />
 
 
 If you want to see my work you can use this link:https://drive.google.com/drive/folders/1SHdOdg9_Y5N768sDD0rAdKw79IaP0aBr?usp=sharing
+You can see full Power BI File from Here:
