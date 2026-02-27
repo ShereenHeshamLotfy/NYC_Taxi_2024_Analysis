@@ -212,8 +212,8 @@ This project focuses solely on data cleaning, preparation, and analytical use of
 
 
 If you want to see my work you can use this link:https://drive.google.com/drive/folders/1SHdOdg9_Y5N768sDD0rAdKw79IaP0aBr?usp=sharing                                                                                           
-<p align="center">
-  <img src="Dashboard-demo.gif" width="800">
-</p>
-
+<video width="100%" height="auto" loop muted autoplay controls>
+  <source src="Dashboard_demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
