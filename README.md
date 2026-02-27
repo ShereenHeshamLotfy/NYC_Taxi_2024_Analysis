@@ -1,4 +1,4 @@
-🚕 NYC Taxi Trips 2024 – Data Cleaning & Analysis Pipeline
+# 🚕 NYC Taxi Trips 2024 – Data Cleaning & Analysis Pipeline
 
 This project builds a complete data preparation and analysis workflow for New York City taxi trip records published by the
 New York City Taxi and Limousine Commission (TLC) for
@@ -6,7 +6,7 @@ New York City.
 
 The goal is to clean monthly raw data, fix common data quality issues, merge all months into a single dataset, and prepare the data for analytics and reporting (including Power BI / DAX).
 
-📌 Project Objectives
+# 📌 Project Objectives
 
 Clean and standardize monthly taxi trip CSV files
 
@@ -18,7 +18,7 @@ Merge large monthly datasets efficiently
 
 Prepare a final dataset suitable for BI tools and statistical analysis
 
-🗂️ Project Structure
+# 🗂️ Project Structure
 NYC_Taxi_2024/
 │
 ├── cleaned_months/
@@ -34,7 +34,8 @@ NYC_Taxi_2024/
 │   └── Month_12.ipynb
 │
 └── README.md
-📊 Data Description
+
+# 📊 Data Description
 
 Each row represents a single taxi trip and contains (among others) the following fields:
 
@@ -72,8 +73,8 @@ congestion_surcharge
 
 Airport_fee
 
-🧹 Data Cleaning Steps
-1. Fix zero trip distances
+# 🧹 Data Cleaning Steps
+## 1. Fix zero trip distances
 
 Trips with trip_distance = 0 are treated as invalid measurements.
 
@@ -85,7 +86,7 @@ Each zero value is replaced with the corresponding zone average
 
 This avoids removing trips while keeping distances realistic.
 
-2. Handle negative tip amounts
+## 2. Handle negative tip amounts
 
 Although tips should be non-negative, a small number of records contain negative values due to:
 
