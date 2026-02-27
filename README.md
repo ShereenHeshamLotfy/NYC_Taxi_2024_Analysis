@@ -213,7 +213,7 @@ This project focuses solely on data cleaning, preparation, and analytical use of
 
 If you want to see my work you can use this link:https://drive.google.com/drive/folders/1SHdOdg9_Y5N768sDD0rAdKw79IaP0aBr?usp=sharing                                                                                           
 <p align="center">
-  <img src="Dashboard-demo" width="800">
+  <img src="Dashboard-demo.gif" width="800">
 </p>
 
 
