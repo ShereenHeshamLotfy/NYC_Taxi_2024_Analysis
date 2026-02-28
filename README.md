@@ -212,8 +212,9 @@ This project focuses solely on data cleaning, preparation, and analytical use of
 
 
 If you want to see my work you can use this link:https://drive.google.com/drive/folders/1SHdOdg9_Y5N768sDD0rAdKw79IaP0aBr?usp=sharing                                                                                           
-<video width="100%" height="auto" loop muted autoplay controls>
-  <source src="https://github.com/user-attachments/assets/4b52c2c1-9783-4028-b45b-36e03a5bde1e" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/09563d40-aa85-4cd8-b462-c9cdf13efc72" width="100%" autoplay muted loop playsinline>
+  </video>
+</div>
+
 
