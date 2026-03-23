@@ -211,16 +211,6 @@ only tip_amount > 0 represents recorded electronic tips
 - Relationship between demand on trips, average fare amount, average trip distance and trip duration over hour.
 - Relationship between demand on trips, average of congestion surcharge and trip duration over days.
 
-# 🧰 Technologies Used
-
-Python
-
-pandas
-
-Google Colab / Jupyter Notebook
-
-Power BI (for visualization and DAX analysis)
-
 # ✅ Final Output
 
 The final cleaned and merged dataset:
@@ -248,5 +238,16 @@ If you want to see my work you can use this link:https://drive.google.com/drive/
   <video src="https://github.com/user-attachments/assets/09563d40-aa85-4cd8-b462-c9cdf13efc72" width="100%" autoplay muted loop playsinline>
   </video>
 </div>
+
+# 🧰 Technologies Used
+
+Python
+
+pandas
+
+Google Colab / Jupyter Notebook
+
+Power BI (for visualization and DAX analysis)
+
 
 
