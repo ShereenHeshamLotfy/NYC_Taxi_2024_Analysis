@@ -23,7 +23,7 @@ Prepare a final dataset suitable for BI tools and statistical analysis
 Identify the best times, locations, and factors that increase revenue and tips.
 
 ## 💡 Key Insights
-- Revenue peaks between 9 AM to 6 PM with a 7.9% increase compared to evening hours
+- Revenue peaks between 9 AM to 6 PM with a 8% increase compared to evening hours
 - Region with id 132 it considers the most region it`s population demand taxis and it achieve peak revenue as it generates 13% of total revenue, making it the most profitable location for drivers
 - Region with id 236 it considers the most destination the population demand to go to and it achieve one of the largest revenue for companyas it generates 3% of total revenue, making it the most profitable location for drivers
 - Tips increase with shorter trip distances
@@ -40,6 +40,7 @@ Identify the best times, locations, and factors that increase revenue and tips.
 - Drivers can increase revenue by focusing on high-demand hours
 - Targeting top-performing locations improves efficiency
 - Small percentage increases can significantly boost daily earnings at scale
+- Even a 8% increase can significantly boost driver earnings over time
   
 # 🗂️ Project Structure
 NYC_Taxi_2024/
