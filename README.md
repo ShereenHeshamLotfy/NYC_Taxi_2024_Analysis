@@ -23,15 +23,20 @@ Prepare a final dataset suitable for BI tools and statistical analysis
 Identify the best times, locations, and factors that increase revenue and tips.
 
 ## 💡 Key Insights
-- Peak revenue occur on Thursday as day , at 5 pm as hour in all days and in May and October during whole year
-- Region with id 132 it considers the most region it`s population demand taxis and it achieve peak revenue.
-- Region with id 236 it considers the most destination the population demand to go to and it achieve one of the largest revenue for company.
+- Revenue peaks between 9 AM to 6 PM with a 7.9% increase compared to evening hours
+- Region with id 132 it considers the most region it`s population demand taxis and it achieve peak revenue as it generates 13% of total revenue, making it the most profitable location for drivers
+- Region with id 236 it considers the most destination the population demand to go to and it achieve one of the largest revenue for companyas it generates 3% of total revenue, making it the most profitable location for drivers
 - Tips increase with shorter trip distances
   
 ## 🚀 Recommendations
 - Work on Thursday as day , at 5 pm as hour in all days and in May and October during whole year
 - Care about locations (pickup,dropoff) with high number of trips and achieve high revenue like offer taxi any time and try to find short cut road to reduce trip duration and win passenger`s approval
 - Avoid low-demand time periods
+  
+## 💰 Business Impact
+- Drivers can increase daily revenue by focusing on peak hours
+- Optimizing location strategy can reduce idle time
+- Better timing can increase tips and trip frequency
   
 # 🗂️ Project Structure
 NYC_Taxi_2024/
@@ -53,6 +58,7 @@ NYC_Taxi_2024/
 ## 📊 Dataset
 -The raw data is provided by the New York City public open data program through the NYC Taxi and Limousine Commission (TLC).
 - Source: (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+- Size:40884928 rows
 - Each row represents a single taxi trip and contains (among others) the following fields:
     pickup_datetime
     
