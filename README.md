@@ -7,7 +7,7 @@ New York City.
 The goal is to clean monthly raw data, fix common data quality issues, merge all months into a single dataset, and prepare the data for analytics and reporting (including Power BI / DAX).
 
 ## 📌 Business Problem
-NYC taxi drivers struggle to maximize revenue due to fluctuating demand across time and locations.
+NYC taxi drivers struggle to maximize daily revenue due to demand variabilitys.
 
 ## 🎯 Project Objective
 Clean and standardize monthly taxi trip CSV files
@@ -29,7 +29,7 @@ Identify the best times, locations, and factors that increase revenue and tips.
 - Tips increase with shorter trip distances
   
 ## 🚀 Recommendations
-- Work on Thursday as day , at 5 pm as hour in all days and in May and October during whole year
+- Work on Thursday as day , at 6 pm as hour in all days and in May and October during whole year
 - Care about locations (pickup,dropoff) with high number of trips and achieve high revenue like offer taxi any time and try to find short cut road to reduce trip duration and win passenger`s approval
 - Avoid low-demand time periods
   
@@ -37,6 +37,9 @@ Identify the best times, locations, and factors that increase revenue and tips.
 - Drivers can increase daily revenue by focusing on peak hours
 - Optimizing location strategy can reduce idle time
 - Better timing can increase tips and trip frequency
+- Drivers can increase revenue by focusing on high-demand hours
+- Targeting top-performing locations improves efficiency
+- Small percentage increases can significantly boost daily earnings at scale
   
 # 🗂️ Project Structure
 NYC_Taxi_2024/
