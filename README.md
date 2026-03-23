@@ -4,7 +4,7 @@ This project builds a complete data preparation and analysis workflow for New Yo
 New York City Taxi and Limousine Commission (TLC) for
 New York City.
 
-The goal is to clean monthly raw data, fix common data quality issues, merge all months into a single dataset, and prepare the data for analytics and reporting (including Power BI / DAX).
+The goal is to clean monthly raw data, fix common data quality issues, merge all months into a single dataset, and prepare the data for analytics and reporting (including Power BI / DAX) and dentify the best times, locations, and factors that increase revenue and tips.
 
 ## 📌 Business Problem
 NYC taxi drivers struggle to maximize daily revenue due to demand variabilitys.
