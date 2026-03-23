@@ -6,8 +6,10 @@ New York City.
 
 The goal is to clean monthly raw data, fix common data quality issues, merge all months into a single dataset, and prepare the data for analytics and reporting (including Power BI / DAX).
 
-# 📌 Project Objectives
+## 📌 Business Problem
+NYC taxi drivers struggle to maximize revenue due to fluctuating demand across time and locations.
 
+## 🎯 Project Objective
 Clean and standardize monthly taxi trip CSV files
 
 Handle missing and invalid values
@@ -18,6 +20,19 @@ Merge large monthly datasets efficiently
 
 Prepare a final dataset suitable for BI tools and statistical analysis
 
+Identify the best times, locations, and factors that increase revenue and tips.
+
+## 💡 Key Insights
+- Peak revenue occur on Thursday as day , at 5 pm as hour in all days and in May and October during whole year
+- Region with id 132 it considers the most region it`s population demand taxis and it achieve peak revenue.
+- Region with id 236 it considers the most destination the population demand to go to and it achieve one of the largest revenue for company.
+- Tips increase with shorter trip distances
+  
+## 🚀 Recommendations
+- Work on Thursday as day , at 5 pm as hour in all days and in May and October during whole year
+- Care about locations (pickup,dropoff) with high number of trips and achieve high revenue like offer taxi any time and try to find short cut road to reduce trip duration and win passenger`s approval
+- Avoid low-demand time periods
+  
 # 🗂️ Project Structure
 NYC_Taxi_2024/
 │
@@ -35,45 +50,45 @@ NYC_Taxi_2024/
 │
 └── README.md
 
-# 📊 Data Description
-
-Each row represents a single taxi trip and contains (among others) the following fields:
-
-pickup_datetime
-
-dropoff_datetime
-
-passenger_count
-
-trip_distance
-
-RatecodeID
-
-PULocationID
-
-DOLocationID
-
-payment_type
-
-fare_amount
-
-extra
-
-mta_tax
-
-tip_amount
-
-tolls_amount
-
-improvement_surcharge
-
-total_amount
-
-congestion_surcharge
-
-Airport_fee
-
-# 🧹 Data Cleaning Steps
+## 📊 Dataset
+-The raw data is provided by the New York City public open data program through the NYC Taxi and Limousine Commission (TLC).
+- Source: (https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page).
+- Each row represents a single taxi trip and contains (among others) the following fields:
+    pickup_datetime
+    
+    dropoff_datetime
+    
+    passenger_count
+    
+    trip_distance
+    
+    RatecodeID
+    
+    PULocationID
+    
+    DOLocationID
+    
+    payment_type
+    
+    fare_amount
+    
+    extra
+    
+    mta_tax
+    
+    tip_amount
+    
+    tolls_amount
+    
+    improvement_surcharge
+    
+    total_amount
+    
+    congestion_surcharge
+    
+    Airport_fee
+  
+# 🧹 Data Cleaning Steps(python)
 ## 1. Fix zero trip distances
 
 Trips with trip_distance = 0 are treated as invalid measurements.
@@ -175,6 +190,17 @@ cash tips are not captured electronically and appear as zero
 
 only tip_amount > 0 represents recorded electronic tips
 
+## 📈 Analysis
+- Trip distribution over time
+- Trip distribution over location
+- Trip distribution over trip type
+- Trip distribution over payment method
+- Revenue by location
+- Revenue by trip type
+- Revenue over time(month,day, hour)
+- Relationship between demand on trips, average fare amount, average trip distance and trip duration over hour.
+- Relationship between demand on trips, average of congestion surcharge and trip duration over days.
+
 # 🧰 Technologies Used
 
 Python
@@ -201,11 +227,7 @@ demand pattern studies
 
 spatial and temporal analysis
 
-# 📄 License and Data Source
-
-The raw data is provided by the New York City public open data program through the NYC Taxi and Limousine Commission (TLC).
-
-This project focuses solely on data cleaning, preparation, and analytical use of the publicly available datasets.
+Know peak days, month , hour and locations and use them to increase revenue
 
 # 📊 Overview Dashboard:
 <img width="1332" height="713" alt="image" src="https://github.com/user-attachments/assets/b3322074-9ebc-4435-84e7-e46bf00b668e" />
