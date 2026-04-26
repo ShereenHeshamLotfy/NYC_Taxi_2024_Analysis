@@ -94,10 +94,11 @@ NYC_Taxi_2024/
 
 ---
 
-## 🎥 Demo Video (Click to view)
-
-https://github.com/user-attachments/assets/09563d40-aa85-4cd8-b462-c9cdf13efc72
-
+## 🎥 Demo Video (Click to View)
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/09563d40-aa85-4cd8-b462-c9cdf13efc72" width="100%" autoplay muted loop playsinline>
+  </video>
+</div>
 ---
 
 ## 🛠 Tools & Technologies
