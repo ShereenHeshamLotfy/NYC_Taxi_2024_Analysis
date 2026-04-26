@@ -90,7 +90,10 @@ NYC_Taxi_2024/
 
 ## 📊 Dashboard Preview
 
-<img width="1332" height="713" alt="NYC Taxi Dashboard" src="https://github.com/user-attachments/assets/b3322074-9ebc-4435-84e7-e46bf00b668e" />
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/09563d40-aa85-4cd8-b462-c9cdf13efc72" width="100%" autoplay muted loop playsinline>
+  </video>
+</div>
 
 ---
 
